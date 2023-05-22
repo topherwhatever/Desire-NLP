@@ -1,0 +1,174 @@
+---
+title: "DTM"
+author: "Bao Ho"
+date: "2022-12-08"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Loading library
+```{r}
+library(readr)
+library(glmnet)
+library(tidytext)
+library(dplyr)
+library(syuzhet)
+library(stopwords)
+library(ggplot2)
+library(wordcloud)
+library(tidyr)
+library(textstem)
+library(caret)
+library(tm)
+```
+
+## Loading data
+```{r}
+data <- read_csv("C:/Users/dinos/Desktop/R/Item Desirability/Desirability Data.csv")
+```
+## Tokenization
+```{r}
+data$item <- stem_words(data$item)
+
+tidy_item <- data %>%
+select("Index", "item", "rating") %>%
+unnest_tokens(word, "item") %>%
+group_by(Index, rating) %>%
+count(word) %>%
+ungroup() %>%
+print()
+
+```
+
+```{r}
+stopword <- as_tibble(stopwords::stopwords("en"))
+stopword <- rename(stopword, word = value)
+tb <- anti_join(tidy_item, stopword, by = "word")
+print(tb)
+```
+## Unigram
+```{r}
+unigram <- data %>%
+select("item") %>%
+unnest_tokens(word, "item") %>%
+anti_join(stopword) %>%
+count(word, sort = TRUE) %>%
+print()
+
+```
+## Bigram
+```{r}
+bigram <- data %>%
+  
+select("Index", "item", "rating") %>%
+  unnest_tokens(bigram, "item", token = "ngrams", n = 2) %>%
+  separate(bigram, c("word1", "word2"), sep = " ") %>%
+  filter(!word1 %in% stopword$word,
+         !word2 %in% stopword$word) %>%
+#(Index, rating) %>%
+count(word1, word2, sort = TRUE) %>%
+print()
+
+```
+## Trigram
+```{r}
+trigram <- data %>%
+  select("Index", "item") %>%
+  unnest_tokens(trigram, "item", token = "ngrams", n = 3) %>%
+  separate(trigram, c("word1", "word2", "word3"), sep = " ") %>%
+  filter(!word1 %in% stopword$word,
+         !word2 %in% stopword$word,
+         !word3 %in% stopword$word,
+         !is.na(word1)) %>%
+count(word1, word2, word3, sort = TRUE) %>%
+print()
+
+```
+## Term Frequency
+```{r}
+word_count <- count(tb, word, sort = TRUE)
+word_count_plot <- word_count %>%
+  filter(n > 200)
+ggplot(word_count_plot, aes(x = word, y = n)) + geom_bar(stat = "identity")
+
+```
+```{r}
+word_count %>%
+  count(word) %>%
+  with(wordcloud(word, n, max.word = 10))
+
+```
+## TF-IDF   
+```{r}
+plot_tb <- tb %>%
+  count(Index, word, sort = TRUE) %>%
+  bind_tf_idf(word, Index, n) %>%
+  print()
+```
+## Conducting Sentiment Analysis
+```{r}
+output <- get_nrc_sentiment(tb$word)
+char_length <- nchar(tb$word)
+sentiment_data <- data.frame(tb$word, output, char_length = char_length, rating = tb$rating)
+```
+## Performing Regression Analysis
+```{r}
+model <- lm(rating ~ anger + anticipation + disgust + fear +
+  joy + sadness + surprise + trust + negative + positive + char_length, data = sentiment_data)
+
+summary(model)
+```
+
+## Performing Lasso Regression
+```{r}
+y <- sentiment_data$rating
+x <- data.matrix(sentiment_data[, c("anger", "anticipation", "disgust", "fear",
+"joy", "sadness", "surprise", "trust", "negative", "positive", "char_length")])
+
+cv_model <- cv.glmnet(x, y, alpha = 1)
+best_lamdba <- cv_model$lambda.min
+best_model <- glmnet(x, y, alpha = 1, lambda = best_lamdba)
+coef(best_model)
+```
+
+
+## Getting most predictive words
+```{r}
+#Document To Matrix format
+dtm_data <- tb %>%
+cast_tdm(Index, word, n)
+dtm_data <- as.matrix(dtm_data)
+```
+
+```{r}
+score.names <- "rating"
+```
+
+```{r}
+lambda_seq <- 10^seq(2, -2, by = -.1)
+cv_output <- cv.glmnet(dtm_data, data$rating, alpha = 1, lambda = lambda_seq)
+best_lam <- cv_output$lambda.min
+lasso_best <- glmnet(dtm_data, as.double(data$rating), alpha = 1, lambda = best_lam);
+lasso_best
+```
+```{r}
+Loverall_imp <-varImp(lasso_best, lambda = best_lam)
+a <- row.names(Loverall_imp)
+df <- data.frame(token = a, rating = Loverall_imp)
+rownames(df) <- NULL
+colnames(df) <- c("token", "rating")
+```
+
+```{r}
+df %>%
+  arrange(desc(rating)) %>%
+  print()
+```
+
+```{r}
+
+```
+
