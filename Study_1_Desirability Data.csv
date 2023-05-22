@@ -1,0 +1,437 @@
+,Index,item,anger,anticipation,disgust,fear,joy,sadness,surprise,trust,negative,positive,rating,char_length
+1,1, I laugh aloud.,0,0,0,0,1,0,1,0,0,1,3.490566038,15
+2,2, I amuse my friends.,0,0,0,0,1,0,0,0,0,1,3.886792453,20
+3,3, I rarely feel excited or eager.,0,2,0,0,2,0,2,2,0,2,1.905660377,32
+4,4, I follow a schedule.,0,0,0,0,0,0,0,0,0,0,4.735849057,21
+5,5, I keep my emotions under control.,0,0,0,0,0,0,0,0,0,0,4.924528302,34
+6,6, I am suspicious of others' intentions.,1,1,0,0,0,0,0,0,1,0,2.264150943,39
+7,7, I make myself the center of attention.,0,0,0,0,0,0,0,1,0,2,2.264150943,39
+8,8, I jump into things without thinking.,0,0,0,0,1,0,0,0,0,1,1.245283019,37
+9,9, I love large parties.,0,0,0,0,1,0,0,0,0,1,3.169811321,22
+10,10," I am compassionate, having a soft heart.",0,0,0,0,0,0,0,0,0,1,4.358490566,41
+11,11, I believe that there is no absolute right and wrong.,0,0,0,0,0,0,0,0,1,1,3.245283019,53
+12,12, I dislike routine.,1,0,1,0,0,0,0,1,1,1,1.79245283,19
+13,13, I neglect my duties.,0,0,0,0,0,0,0,0,1,0,0.528301887,21
+14,14, I fear for the worst.,1,0,0,1,0,0,0,0,1,0,1.603773585,22
+15,15, I am easily distracted.,1,0,0,0,0,0,0,0,1,0,1.018867925,24
+16,16, I enjoy thinking about things.,0,1,0,0,1,0,0,1,0,1,4.706896552,31
+17,17, I have excellent ideas.,0,0,0,0,1,0,0,1,0,1,5.396551724,24
+18,18, I am not interested in other people's problems.,0,0,1,0,0,1,0,0,0,1,1.689655172,48
+19,19, I am sometimes rude to others.,0,0,0,0,0,0,0,0,0,0,0.862068966,31
+20,20, I plunge into tasks with all my heart.,0,0,0,1,0,0,0,0,1,0,4.965517241,39
+21,21, I go on binges.,0,0,0,0,0,0,0,0,0,0,1.482758621,16
+22,22, I like a leisurely lifestyle.,0,0,0,0,0,0,0,0,0,1,2.706896552,30
+23,23, I can handle complex problems.,0,0,0,0,0,0,0,0,0,0,5.275862069,31
+24,24, I have difficulty imagining things.,1,0,0,1,0,1,0,0,1,0,1.551724138,36
+25,25, I can manage many things at the same time.,0,1,0,0,0,0,0,1,0,1,4.982758621,43
+26,26, I am quiet around strangers.,0,0,0,0,0,1,0,0,0,1,2.310344828,29
+27,27, I continue until everything is perfect.,0,2,0,0,1,0,0,2,0,2,4.448275862,40
+28,28, I have an assertive personality.,0,0,0,0,0,0,0,0,0,0,4.068965517,33
+29,29, I am indifferent to the feelings of others.,0,0,0,0,0,0,0,0,0,0,1.655172414,44
+30,30, I think of others first.,0,0,0,0,0,0,0,0,0,0,4.465517241,25
+31,31, I dislike changes.,1,0,1,0,0,0,0,0,1,0,1.618181818,19
+32,32, I am interested in many things.,0,0,1,0,0,1,0,0,0,1,4.654545455,32
+33,33, I finish what I start.,0,1,0,0,0,0,0,0,0,0,5.472727273,23
+34,34, I suspect hidden motives in others.,0,0,0,1,0,0,0,0,2,0,1.890909091,36
+35,35, I value cooperation over competition.,0,1,0,0,0,0,0,1,1,1,4.618181818,38
+36,36, I can be tense.,0,0,0,0,0,0,0,0,0,0,1.8,16
+37,37, I know the answers to many questions.,0,0,0,0,0,0,0,0,0,0,4.436363636,38
+38,38, I dislike talking about myself.,1,0,1,0,0,0,0,0,1,0,3.072727273,32
+39,39, I feel comfortable with myself.,0,0,0,0,0,0,0,0,0,0,4.854545455,32
+40,40, I learn things slowly.,0,0,0,0,0,0,0,0,0,1,1.2,23
+41,41, I do things according to a plan.,0,1,0,0,0,0,0,0,0,0,4.709090909,33
+42,42, I am often in a bad mood.,1,0,1,1,0,1,0,0,1,0,0.618181818,26
+43,43, I am full of energy.,0,0,0,0,0,0,0,0,0,1,4.8,21
+44,44, I act comfortably with others.,0,0,0,0,0,0,0,0,0,0,5.090909091,31
+45,45, I like to take it easy.,0,0,0,0,0,0,0,0,0,0,2.545454545,24
+46,46," I am persistent, working until the task is finished.",0,0,0,0,0,0,0,0,0,3,5.338709677,53
+47,47, I enjoy being part of a group.,0,1,0,0,1,0,0,1,0,1,4.919354839,31
+48,48, I contradict others.,1,0,0,0,0,0,0,0,1,0,1.516129032,21
+49,49, I often feel blue.,0,0,0,0,0,1,0,0,0,0,1.290322581,19
+50,50, I catch on to things quickly.,0,0,0,0,0,0,1,0,0,0,5.241935484,30
+51,51, I am very pleased with myself.,0,0,0,0,1,0,0,0,0,1,3.983870968,31
+52,52, I rarely complain.,1,0,0,0,0,1,0,0,1,0,4.580645161,19
+53,53, I hate to seem pushy.,1,0,1,1,0,1,0,0,1,0,3.725806452,22
+54,54, I can be somewhat careless.,0,0,0,0,0,0,0,0,0,0,1.161290323,28
+55,55, I do more than what's expected of me.,0,1,0,0,0,0,0,0,0,0,5.096774194,38
+56,56, I am calm even in tense situations.,0,0,0,0,0,0,0,0,0,1,5.14516129,36
+57,57, I am less active than other people.,0,0,0,0,0,0,0,0,0,0,1.806451613,36
+58,58, I have few artistic interests.,0,0,0,0,0,0,0,0,0,1,2.838709677,31
+59,59, I love life.,0,0,0,0,1,0,0,0,0,1,4.758064516,13
+60,60, I take charge.,0,0,0,0,0,0,0,0,0,0,4.741935484,15
+61,61, I obstruct others' plans.,1,0,0,1,0,0,0,0,1,0,0.956521739,26
+62,62, I have difficulty understanding abstract ideas.,1,0,0,1,0,1,0,1,1,1,1.586956522,48
+63,63, I like to solve complex problems.,0,0,0,0,0,0,0,0,0,0,4.891304348,34
+64,64," I feel secure, comfortable with myself.",0,0,0,0,0,0,0,0,0,0,4.913043478,40
+65,65, I can be cold and uncaring.,1,0,1,0,0,1,0,0,2,0,1.391304348,28
+66,66, I am not a very enthusiastic person.,0,0,0,0,0,0,0,0,0,0,1.608695652,37
+67,67," I am sometimes shy, introverted",0,0,0,0,0,0,0,0,0,0,2.413043478,32
+68,68, I get to work at once.,0,0,0,0,0,0,0,0,0,0,4.630434783,23
+69,69," I want everything to be ""just right.""",0,0,0,0,0,0,0,0,0,0,4,38
+70,70, I have a lot of fun.,0,1,0,0,1,0,0,0,0,1,3.913043478,21
+71,71, I look at the bright side of life.,0,0,0,0,0,0,0,0,0,0,4.608695652,35
+72,72, I look down on others.,0,0,0,0,0,0,0,0,0,0,0.934782609,23
+73,73, I start arguments with others.,1,1,0,0,0,0,0,0,0,0,0.717391304,31
+74,74, I am full of ideas.,0,0,0,0,0,0,0,0,0,1,4.847826087,20
+75,75, I get stressed out easily.,0,0,0,0,0,0,0,0,0,0,1.456521739,27
+76,76, I distrust people.,1,0,1,1,0,0,0,0,1,0,1.413043478,19
+77,77, I need a push to get started.,0,0,0,0,0,0,0,0,0,0,1.347826087,30
+78,78, I get deeply immersed in music.,0,0,0,0,1,1,0,0,0,1,2.934782609,32
+79,79, I carry out my plans.,0,0,0,0,0,0,0,0,0,0,5.130434783,22
+80,80, I inquire about others' well,0,0,0,0,0,0,0,0,0,0,4.717391304,29
+81,81, I set high standards for myself and others.,0,0,0,0,0,0,0,0,0,0,5.02173913,44
+82,82, I find it difficult to get down to work.,0,0,0,1,0,0,0,0,0,0,0.804347826,41
+83,83, I keep others at a distance.,0,0,0,0,0,0,0,0,0,0,1.608695652,29
+84,84, I think poetry and plays are boring.,0,0,0,0,0,0,0,0,1,0,2.630434783,37
+85,85, I yell at people.,1,0,0,1,0,0,1,0,1,0,0.5,18
+86,86, I sympathize with others' feelings.,0,0,0,0,0,1,0,0,0,0,4.543478261,36
+87,87, I hold a grudge.,1,0,0,0,0,0,0,0,1,0,0.97826087,17
+88,88, I break rules.,0,0,0,0,0,0,1,0,0,0,1,15
+89,89, I mess things up.,0,0,1,0,0,0,0,0,1,0,0.608695652,18
+90,90, I am willing to try anything once.,0,0,0,0,0,0,0,0,0,0,3.913043478,35
+91,91, I am curious about many different things.,0,0,0,0,0,0,0,0,0,0,4.810344828,42
+92,92, I tend to dislike soft,1,0,1,0,0,0,0,0,1,0,1.517241379,23
+93,93, I turn my back on others.,0,0,0,0,0,0,0,0,0,0,0.706896552,26
+94,94, I am not interested in abstract ideas.,0,0,1,0,0,1,0,0,0,1,1.637931034,39
+95,95, I see beauty in things that others might not notice.,0,0,0,0,1,0,0,0,0,1,4.275862069,53
+96,96, I am helpful and unselfish with others.,0,0,0,0,1,0,0,1,0,2,5.189655172,40
+97,97, I become overwhelmed by events.,0,0,0,0,0,1,0,0,1,0,1.396551724,32
+98,98, I trust what people say.,0,0,0,0,0,0,0,1,0,0,3.620689655,25
+99,99, I am always on the go.,0,0,0,0,0,0,0,0,0,0,4.120689655,23
+100,100, I postpone decisions.,0,0,0,0,0,0,0,0,0,0,1.431034483,22
+101,101, I get caught up in my problems.,0,0,0,0,0,0,0,0,0,0,1.224137931,32
+102,102, I am not really interested in others.,0,0,1,0,0,1,0,0,0,1,1.068965517,38
+103,103, I avoid contact with others.,0,0,0,1,0,0,0,0,1,1,1.155172414,29
+104,104, I am not bothered by difficult social situations.,0,0,0,1,0,0,0,0,0,0,4.534482759,50
+105,105, I believe laws should be strictly enforced.,0,0,0,0,0,0,0,0,0,0,4.25862069,44
+106,106, I make friends easily.,0,0,0,0,0,0,0,0,0,0,4.8,23
+107,107, I do not have an assertive personality.,0,0,0,0,0,0,0,0,0,0,2.4,40
+108,108, I take advantage of others.,0,0,0,0,0,0,0,0,0,1,0.966666667,28
+109,109, I am not bothered by disorder.,0,0,0,1,0,0,0,0,1,0,2.733333333,31
+110,110, I seldom feel blue.,0,0,0,0,0,1,0,0,0,0,4.166666667,20
+111,111, I am attached to conventional ways.,0,0,0,0,0,0,0,0,0,0,2.583333333,36
+112,112, I act without thinking.,0,0,0,0,0,0,0,0,0,0,1.05,24
+113,113, I come up with good solutions.,0,1,0,0,1,0,1,1,0,1,5.416666667,31
+114,114, I get overwhelmed by emotions.,0,0,0,0,0,1,0,0,1,0,1.433333333,31
+115,115, I do not enjoy going to art museums.,0,2,0,0,2,1,1,1,0,2,2.633333333,37
+116,116, I rarely put people under pressure.,0,0,0,0,0,0,0,0,1,0,3.416666667,36
+117,117, I take an interest in other people's lives.,0,0,0,0,0,0,0,0,0,1,4.116666667,44
+118,118, I am afraid of many things.,0,0,0,1,0,0,0,0,1,0,1.6,28
+119,119, I don't like the idea of change.,0,0,0,1,0,0,0,0,0,0,1.366666667,33
+120,120, I radiate joy.,0,0,0,0,1,0,0,0,0,2,4.35,15
+121,121, I seldom get emotional.,0,0,0,0,0,0,0,0,0,0,3.684210526,24
+122,122, I use difficult words.,1,0,0,1,0,0,0,0,1,0,2.701754386,23
+123,123, I feel comfortable around people.,0,0,0,0,0,0,0,0,0,0,5.035087719,34
+124,124, I leave a mess in my room.,0,0,1,0,0,1,1,0,2,0,1.543859649,27
+125,125," I am relaxed, handling stress well.",0,0,0,0,0,0,0,0,1,0,5.263157895,36
+126,126, I pretend to be concerned for others.,0,0,0,1,0,1,0,0,1,0,1.649122807,38
+127,127, I am a very private person.,0,0,0,0,0,0,0,0,0,0,2.912280702,28
+128,128, I have a vivid imagination.,0,0,0,0,1,0,0,0,0,1,4.052631579,28
+129,129, I know how to captivate people.,0,1,0,0,1,0,1,1,0,1,4.561403509,32
+130,130, I seldom joke around.,0,0,0,0,0,0,0,0,1,0,2.964912281,22
+131,131, I get angry easily.,1,0,1,0,0,0,0,0,1,0,0.596491228,20
+132,132, I can't make up my mind.,0,0,0,0,0,0,0,0,0,0,1,25
+133,133, I take control of things.,0,0,0,0,0,0,0,0,0,0,4.350877193,26
+134,134, I believe that people are basically moral.,1,0,0,0,0,0,0,1,0,1,4.175438596,43
+135,135, I see myself as a good leader.,0,1,0,0,1,0,1,2,0,2,5.052631579,31
+136,136, I am easily discouraged.,0,0,0,0,0,0,0,0,0,0,0.980392157,25
+137,137, I stay optimistic after experiencing a setback.,0,0,0,0,0,1,0,0,1,0,5.274509804,48
+138,138, I make people feel at ease.,0,0,0,0,0,0,0,0,0,1,4.960784314,28
+139,139, I believe in human goodness.,0,1,0,0,1,0,1,1,0,1,4.745098039,29
+140,140, I can handle a lot of information.,0,0,0,0,0,0,0,0,0,1,5.352941176,35
+141,141," I am temperamental, getting emotional easily.",0,0,0,0,0,0,0,0,0,0,1.058823529,46
+142,142, I am paying attention ,0,0,0,0,0,0,0,0,0,1,3.058823529,23
+143,143, I misjudge situations.,0,0,0,0,0,0,0,0,0,0,0.921568627,23
+144,144, I rarely lose my composure.,1,0,1,1,0,1,1,0,1,1,4.843137255,28
+145,145, I can talk others into doing things.,0,0,0,0,0,0,0,0,0,1,4.117647059,37
+146,146, I do just enough work to get by.,0,0,0,0,0,0,0,0,0,0,1.019607843,33
+147,147, I can't stand weak people.,0,0,0,0,0,0,0,0,0,0,1.882352941,27
+148,148, I indulge in my fantasies.,0,0,0,0,0,0,0,0,0,0,2.254901961,27
+149,149," I am emotionally stable, not easily upset.",1,0,0,0,0,1,0,1,1,1,5.058823529,43
+150,150, I don't talk a lot.,0,0,0,0,0,0,0,0,0,1,2.784313725,20
+151,151, I keep things tidy.,0,0,0,0,0,0,0,0,0,0,4.941176471,20
+152,152, I formulate ideas clearly.,0,0,0,0,0,0,0,0,0,0,5.203703704,27
+153,153, I am not easily affected by my emotions.,0,0,0,0,0,0,0,0,0,0,4.62962963,41
+154,154, I take offense easily.,1,0,1,1,0,1,0,0,1,0,1.222222222,23
+155,155," I tend to feel depressed, blue.",1,0,0,1,0,2,0,0,1,0,1.351851852,32
+156,156, I love excitement.,0,1,0,0,2,0,1,0,0,2,3.777777778,19
+157,157, I like order.,0,0,0,0,0,0,0,0,0,0,4.462962963,14
+158,158, I have a strong personality.,0,0,0,0,0,0,0,0,0,0,3.925925926,29
+159,159, I show a lot of enthusiasm.,0,1,0,0,1,0,1,1,0,1,4.888888889,28
+160,160, I easily resist temptations.,0,0,0,0,0,0,0,0,1,0,4.462962963,29
+161,161, I know how to get around the rules.,0,0,0,0,0,0,0,0,0,0,2.277777778,36
+162,162, I tell the truth.,0,0,0,0,0,0,0,1,0,1,5.351851852,18
+163,163, I complete tasks successfully.,0,0,0,0,0,0,0,0,0,0,5.518518519,31
+164,164, I enjoy being reckless.,1,1,0,1,1,0,0,1,1,1,1.111111111,24
+165,165, I like to get lost in thought.,0,1,0,0,0,1,0,0,1,0,2.074074074,31
+166,166, I seek danger.,0,1,0,1,0,1,0,0,1,0,1.407407407,15
+167,167, I pay attention to details.,0,1,0,0,1,0,0,1,0,2,5.482142857,28
+168,168, I am not easily bothered by things.,0,0,0,0,0,0,0,0,0,0,4.571428571,36
+169,169, I love to reflect on things.,0,0,0,0,1,0,0,0,0,1,4.285714286,29
+170,170, I know how to comfort others.,0,1,0,0,1,0,0,1,0,1,4.535714286,30
+171,171, I dislike loud music.,1,0,1,0,1,1,0,0,1,1,3.178571429,22
+172,172, I prefer to have others take charge.,0,0,0,0,0,0,0,1,0,1,2.517857143,37
+173,173, I am the life of the party.,0,0,0,0,0,0,0,0,0,0,3.428571429,28
+174,174, I have a good word for everyone.,0,1,0,0,1,0,1,2,0,2,4.428571429,33
+175,175, I use others for my own ends.,0,0,0,0,0,0,0,0,0,0,1.535714286,30
+176,176," I am efficient, getting things done.",0,1,0,0,0,0,0,1,0,1,5.482142857,37
+177,177," I am dependable, steady.",0,0,0,0,0,0,1,1,0,0,5.535714286,25
+178,178, I am wary of others.,0,0,0,1,0,0,0,0,0,0,2.464285714,21
+179,179, I try to avoid complex people.,0,0,0,1,0,0,0,0,1,0,2.053571429,31
+180,180, I act wild and crazy.,1,0,0,1,0,1,1,0,2,0,0.946428571,22
+181,181, I dislike myself.,1,0,1,0,0,0,0,0,1,0,1.089285714,18
+182,182, I assume the best about people.,0,0,0,0,0,0,0,0,0,0,4.206896552,32
+183,183," I am reliable, can always be counted on.",0,0,0,0,0,0,0,1,0,1,5.482758621,41
+184,184," I am systematic, liking to keep things in order.",0,0,0,0,1,0,0,1,0,1,4.879310345,49
+185,185, I anticipate the needs of others.,0,0,0,0,0,0,0,0,0,0,4.931034483,34
+186,186, I have difficulty starting tasks.,1,0,0,1,0,1,0,0,1,0,0.913793103,34
+187,187, I seek adventure.,0,2,0,0,0,0,0,0,0,1,3.706896552,18
+188,188, I turn plans into actions.,0,0,0,0,0,0,0,0,0,0,5.155172414,27
+189,189, I make a mess of things.,0,0,1,0,0,0,0,0,1,0,0.862068966,25
+190,190, I show my feelings when I'm happy.,0,1,0,0,1,0,0,2,0,1,4.413793103,35
+191,191, I leave my belongings around.,0,0,0,0,0,1,1,0,1,0,1.620689655,30
+192,192, I enjoy wild flights of fantasy.,0,1,0,0,1,0,1,1,1,1,2.603448276,33
+193,193, I hold back my opinions.,0,0,0,0,0,0,0,0,0,0,2.224137931,25
+194,194," I am dominant, acting as a leader.",0,0,0,1,0,0,0,1,1,1,3.844827586,35
+195,195, I feel little sympathy for others.,0,0,0,0,0,1,0,0,0,1,1.75862069,35
+196,196, I experience my emotions intensely.,0,0,0,0,0,0,0,0,0,0,2.706896552,36
+197,197, I get others to do my duties.,0,0,0,0,0,0,0,0,0,0,1.230769231,30
+198,198," I avoid intellectual, philosophical discussions.",0,0,0,1,0,0,0,0,1,1,2.123076923,49
+199,199, I have little creativity.,0,0,0,0,0,0,0,0,0,0,1.615384615,26
+200,200," I am fascinated by art, music, or literature.",0,1,0,0,2,2,1,0,0,2,3.646153846,46
+201,201, I spend time reflecting on things.,0,1,0,0,0,0,0,0,0,0,4,35
+202,202, I feel that my life lacks direction.,0,0,0,0,0,0,0,0,0,0,1.723076923,37
+203,203, I am not easily amused.,0,0,0,0,1,0,0,0,0,1,2.584615385,24
+204,204, I always know what I am doing.,0,0,0,0,0,0,0,0,0,0,4.861538462,31
+205,205, I keep things neat and tidy.,0,0,0,0,0,0,0,0,0,0,4.923076923,29
+206,206, I avoid mistakes.,0,0,0,1,0,0,0,0,1,0,4.938461538,18
+207,207, I like music.,0,0,0,0,1,1,0,0,0,1,3.661538462,14
+208,208, I express childlike joy.,0,0,0,0,1,0,0,0,0,1,3.076923077,25
+209,209, I seek quiet.,0,1,0,0,0,1,0,0,0,1,3.107692308,14
+210,210, I am not interested in theoretical discussions.,0,0,1,0,0,1,0,0,0,2,2.538461538,48
+211,211, I react quickly.,1,0,0,1,0,0,0,0,0,0,4.292307692,17
+212,212, I bottle up my feelings.,0,0,0,0,0,0,0,0,0,0,2.161290323,25
+213,213, I need a creative outlet.,0,0,0,0,0,0,0,0,0,1,3.870967742,26
+214,214, I am able to control my cravings.,0,0,0,0,0,0,0,0,0,0,4.403225806,34
+215,215, I seldom get lost in thought.,0,1,0,0,0,1,0,0,1,0,3.838709677,30
+216,216, I seldom daydream.,0,0,0,0,0,0,0,0,0,0,3.935483871,19
+217,217, I listen to my conscience.,0,0,0,0,0,0,0,1,0,1,4.177419355,27
+218,218, I grumble about things.,1,0,1,0,0,0,0,0,1,0,1.741935484,24
+219,219, I enjoy the beauty of nature.,0,1,0,0,2,0,0,1,0,2,3.790322581,30
+220,220, I know how to get things done.,0,0,0,0,0,0,0,0,0,0,5.064516129,31
+221,221, I find it hard to influence people.,0,0,0,0,0,0,0,0,1,1,1.967741935,36
+222,222, I like to act on a whim.,0,1,0,0,1,0,1,0,1,0,2,25
+223,223, I lose my temper.,1,0,1,1,0,1,1,0,1,0,0.661290323,18
+224,224, I am easily disturbed.,1,0,0,0,0,1,0,0,1,0,1.112903226,23
+225,225, I am afraid to draw attention to myself.,0,0,0,1,0,0,0,0,1,1,1.935483871,41
+226,226, I change my mood a lot.,0,0,0,1,0,0,0,0,0,0,1.612903226,24
+227,227, I often feel sad.,0,0,0,0,0,0,0,0,0,0,1.372881356,18
+228,228, I don't mind being the center of attention.,0,0,0,0,0,0,0,1,0,2,3.796610169,44
+229,229, I get easily agitated.,1,0,0,0,0,0,0,0,1,0,1.203389831,23
+230,230, I am quick to understand things.,0,0,0,0,0,0,0,0,0,0,5.457627119,33
+231,231, I handle tasks smoothly.,0,0,0,0,0,0,0,0,0,0,5.305084746,25
+232,232, I am often down in the dumps.,1,0,0,0,0,1,0,0,1,0,1.084745763,30
+233,233, I don't understand things.,0,0,0,0,0,0,0,0,0,0,0.966101695,27
+234,234, I have frequent mood swings.,0,0,0,0,0,0,0,0,0,0,1.084745763,29
+235,235, I have difficulty imagining things.,1,0,0,1,0,1,0,0,1,0,1.271186441,36
+236,236, I don't understand people who get emotional.,0,0,0,0,0,0,0,0,0,0,1.677966102,45
+237,237, I rarely get irritated.,0,0,0,0,0,0,0,0,0,0,4.711864407,24
+238,238, I feel sympathy for those who are worse off than myself.,0,0,0,1,0,2,0,0,1,1,4.525423729,57
+239,239, I cheat to get ahead.,1,0,1,0,0,0,0,0,1,1,0.610169492,22
+240,240, I love order and regularity.,0,1,0,0,1,0,0,1,0,2,4.457627119,29
+241,241, I tend to be disorganized.,0,0,0,0,0,0,0,0,1,0,1.288135593,27
+242,242, I excel in what I do.,0,1,0,0,1,0,1,1,0,1,5.360655738,22
+243,243, I laugh a lot.,0,0,0,0,1,0,1,0,0,1,4.147540984,15
+244,244, I seek to influence others.,0,1,0,0,0,0,0,0,1,1,4.032786885,28
+245,245, I make plans and stick to them.,0,0,0,0,0,0,0,0,0,0,5.114754098,32
+246,246, I make rash decisions.,0,0,1,0,0,0,0,0,1,0,1.049180328,23
+247,247, I prefer variety to routine.,0,0,0,0,0,0,0,2,0,2,3.360655738,29
+248,248, I am not bothered by messy people.,0,0,1,0,0,0,0,0,1,0,3.098360656,35
+249,249, I do things I later regret.,0,0,0,0,0,1,0,0,1,0,1.081967213,28
+250,250, I take time out for others.,0,1,0,0,0,0,0,0,0,0,4.459016393,28
+251,251, I want every detail taken care of.,0,0,0,0,0,0,0,0,0,0,4.803278689,35
+252,252, I choose my words with care.,1,0,0,0,0,0,0,0,1,0,4.901639344,29
+253,253, I panic easily.,0,0,0,1,0,0,0,0,1,0,0.967213115,16
+254,254, I keep my promises.,0,0,0,0,0,0,0,0,0,0,5.262295082,20
+255,255, I prefer to be alone.,0,0,0,0,0,0,0,1,0,1,2.31147541,22
+256,256, I avoid crowds.,0,0,0,1,0,0,0,0,1,0,2.393442623,16
+257,257, I often make last,0,0,0,0,0,0,0,0,0,0,2.092592593,18
+258,258, I waste my time.,0,1,1,0,0,0,0,0,1,0,0.722222222,17
+259,259, I have little to contribute.,0,0,0,0,0,0,0,0,0,1,0.537037037,29
+260,260, I show my gratitude.,0,0,0,0,1,0,0,1,0,1,4.666666667,21
+261,261, I am out for my own personal gain.,0,1,0,0,1,0,0,1,0,1,1.814814815,35
+262,262, I believe that people are essentially evil.,1,0,1,1,0,1,0,0,1,0,1.111111111,44
+263,263, I get chores done right away.,0,0,0,0,0,0,0,0,0,0,4.944444444,30
+264,264, I love a good fight.,1,1,0,1,2,0,1,1,1,2,1.166666667,21
+265,265, I don't see the consequences of things.,0,0,0,0,0,0,0,0,0,0,0.814814815,40
+266,266, I do not have a good imagination.,0,1,0,0,1,0,1,1,0,1,1.62962963,34
+267,267, I do a lot in my spare time.,0,1,0,0,0,0,0,0,0,0,4.333333333,29
+268,268, I readily overcome setbacks.,0,0,0,0,0,0,0,0,0,1,5.185185185,29
+269,269, I have a soft heart.,0,0,0,0,0,0,0,0,0,0,4.037037037,21
+270,270, I believe that others have good intentions.,0,1,0,0,1,0,1,1,0,1,4.12962963,44
+271,271, I am talkative,0,0,0,0,0,0,0,0,0,0,3.314814815,15
+272,272, I try to follow the rules.,0,0,0,0,0,0,0,0,0,0,5.019230769,27
+273,273, I have little interest in abstract ideas.,0,0,0,0,0,0,0,0,0,1,2.211538462,42
+274,274, I dislike new foods.,1,0,1,0,0,0,0,0,1,0,2.653846154,21
+275,275, I enjoy being part of a loud crowd.,0,1,0,0,1,0,0,1,0,1,2.961538462,36
+276,276, I break my promises.,0,0,0,0,0,0,1,0,0,0,0.826923077,21
+277,277," I am outgoing, sociable",0,0,0,0,0,0,0,0,0,1,4.576923077,24
+278,278, I have a high opinion of myself.,0,0,0,0,0,0,0,0,0,0,3.25,33
+279,279, I think that all will be well.,0,0,0,0,0,0,0,0,0,0,4.25,31
+280,280, I avoid philosophical discussions.,0,0,0,1,0,0,0,0,1,0,2.576923077,35
+281,281, I often feel uncomfortable around others.,0,0,0,0,0,0,0,0,1,0,1.596153846,42
+282,282, I believe that I am better than others.,0,0,0,0,0,0,0,0,0,0,1.615384615,40
+283,283, I rarely overindulge.,0,0,0,0,0,0,0,0,0,0,3.653846154,22
+284,284, I am easily intimidated.,0,0,0,0,0,0,0,0,0,0,1.519230769,25
+285,285, I am not highly motivated to succeed.,0,1,0,0,1,0,1,1,0,1,0.846153846,38
+286,286, I feel that I'm unable to deal with things.,0,1,0,0,1,1,1,1,1,1,0.826923077,44
+287,287, I only feel comfortable with friends.,0,0,0,0,0,0,0,0,0,0,2.280701754,38
+288,288, I can be stirred up easily.,0,0,0,0,0,0,0,0,0,0,1.50877193,28
+289,289, I prefer to stick with things that I know.,0,0,0,0,0,0,0,1,0,1,2.385964912,43
+290,290, I feel others' emotions.,0,0,0,0,0,0,0,0,0,0,3.894736842,25
+291,291, I love to eat.,0,0,0,0,1,0,0,0,0,2,3.403508772,15
+292,292, I put little time and effort into my work.,0,1,0,0,0,0,0,0,0,1,0.807017544,43
+293,293, I shirk my duties.,0,0,0,0,0,0,0,0,0,0,0.789473684,19
+294,294, I cheer people up.,0,1,0,0,1,0,1,1,0,1,4.894736842,19
+295,295, I feel at ease with people.,0,0,0,0,0,0,0,0,0,1,4.929824561,28
+296,296, I will not probe deeply into a subject.,0,0,0,0,0,0,0,0,1,0,2.245614035,40
+297,297, I can't stand confrontations.,0,0,0,0,0,0,0,0,0,0,2.631578947,30
+298,298, I tend to find fault with others.,0,0,0,0,0,1,0,0,1,0,1.350877193,34
+299,299, I react slowly.,1,0,0,1,0,0,0,0,0,0,1.421052632,16
+300,300, I don't have a soft side.,0,0,0,0,0,0,0,0,0,0,1.877192982,26
+301,301, I insult people.,1,0,1,0,0,1,1,0,1,0,0.49122807,17
+302,302, I wait for others to lead the way.,0,1,0,0,0,0,0,0,1,1,2.090909091,35
+303,303, I make people feel uncomfortable.,0,0,0,0,0,0,0,0,1,0,1,34
+304,304, I am sure of my ground.,0,0,0,0,0,0,0,1,0,0,4.6,24
+305,305, I am skilled in handling social situations.,0,0,0,0,0,0,0,0,0,1,5.036363636,44
+306,306, I often eat too much.,0,0,0,0,0,0,0,0,0,1,2.327272727,22
+307,307, I rarely get caught up in excitement.,0,1,0,0,1,0,1,0,0,1,3.036363636,38
+308,308, I believe that we should be tough on crime.,1,0,0,0,0,1,0,0,2,0,3.8,44
+309,309, I am exacting in my work.,0,0,0,0,0,0,0,0,1,0,4.654545455,26
+310,310, I stick to the rules.,0,0,0,0,0,0,0,0,0,0,4.8,22
+311,311, I seldom get mad.,1,0,1,1,0,1,0,0,1,0,4.145454545,18
+312,312, I believe people should fend for themselves.,0,0,0,0,0,0,0,0,0,0,2.981818182,45
+313,313, I love to think up new ways of doing things.,0,0,0,0,1,0,0,0,0,1,4.781818182,45
+314,314, I do not like poetry.,0,0,0,0,0,0,0,0,0,0,2.818181818,22
+315,315, I worry about things.,0,1,0,1,0,1,0,0,1,0,2.690909091,22
+316,316, I try not to think about the needy.,0,0,0,0,0,0,0,0,1,0,2.054545455,36
+317,317, I am always prepared.,0,1,0,0,0,0,0,1,0,1,5.266666667,22
+318,318, I let things proceed at their own pace.,0,0,0,0,0,0,0,0,0,0,3.283333333,40
+319,319, I adapt easily to new situations.,0,0,0,0,0,0,0,0,0,1,5.166666667,34
+320,320, I don't like crowded events.,0,0,0,0,0,0,0,0,0,0,2.516666667,29
+321,321, I am comfortable in unfamiliar situations.,0,0,0,0,0,0,0,0,0,0,4.416666667,43
+322,322, I am always busy.,0,0,0,0,0,0,0,0,0,0,4,18
+323,323, I rarely notice my emotional reactions.,0,0,0,0,0,0,0,0,0,0,2.05,40
+324,324, I don't like to draw attention to myself.,0,0,0,0,0,0,0,0,0,1,3.1,42
+325,325, I reveal little about myself.,0,0,0,0,0,0,0,0,0,0,2.683333333,30
+326,326, I tend to be lazy.,0,0,0,0,0,0,0,0,1,0,0.6,19
+327,327, I do not like art.,0,1,0,0,1,1,1,0,0,1,2.6,19
+328,328," I am polite, courteous to others.",0,0,0,0,0,0,0,0,0,2,5.25,34
+329,329, I do the opposite of what is asked.,0,0,0,0,0,0,0,0,0,0,0.533333333,36
+330,330, I get upset easily.,1,0,0,0,0,1,0,0,1,0,0.983333333,20
+331,331, I avoid imposing my will on others.,0,0,0,1,0,0,0,0,1,0,3.616666667,36
+332,332, I am a person whose moods go up and down easily.,0,0,0,0,0,0,0,0,0,0,1.25862069,49
+333,333, I seldom notice the emotional aspects of paintings and pictures.,0,0,0,0,0,0,0,0,0,0,2.620689655,65
+334,334, I feel threatened easily.,0,0,0,0,0,0,0,0,0,0,1.189655172,26
+335,335, I do crazy things.,1,0,0,1,0,1,0,0,1,0,0.775862069,19
+336,336, I dislike being the center of attention.,1,0,1,0,0,0,0,1,1,2,2.689655172,41
+337,337, I am not embarrassed easily.,0,0,0,0,0,0,0,0,0,0,4.189655172,29
+338,338, I don't worry about things that have already happened.,0,1,0,1,0,1,0,0,1,0,3.655172414,55
+339,339, I rarely feel anxious or afraid.,0,1,0,2,0,0,0,0,2,0,4.396551724,33
+340,340, I am filled with doubts about things.,0,0,0,0,0,0,0,0,0,0,1.603448276,38
+341,341, I am hard to get to know.,0,0,0,0,0,0,0,0,0,0,1.637931034,26
+342,342," I am respectful, treating others with respect.",0,1,0,0,1,0,0,2,0,2,5.24137931,47
+343,343, I love to read challenging material.,0,0,0,0,1,0,0,0,0,1,4.706896552,37
+344,344, I never spend more than I can afford.,0,0,0,0,0,0,0,0,0,1,4.5,38
+345,345, I enjoy examining myself and my life.,0,1,0,0,1,0,0,1,0,1,4.189655172,38
+346,346, I put people under pressure.,0,0,0,0,0,0,0,0,1,0,2,29
+347,347, I start tasks right away.,0,1,0,0,0,0,0,0,0,0,5.096774194,26
+348,348, I like to tidy up.,0,0,0,0,0,0,0,0,0,0,5,19
+349,349, I seek conflict.,1,1,0,1,0,1,0,0,1,0,0.935483871,17
+350,350, I never splurge.,0,0,0,0,0,0,0,0,0,0,3.516129032,17
+351,351, I am not easily disturbed by events.,1,0,0,0,0,1,0,0,1,0,4.129032258,37
+352,352, I do not like concerts.,0,0,0,0,0,0,0,0,0,0,2.935483871,24
+353,353, I feel little concern for others.,0,0,0,0,0,0,0,0,0,0,1.483870968,34
+354,354, I am a creature of habit.,0,0,1,1,0,0,0,0,1,0,3.161290323,26
+355,355, I know how to cope.,0,0,0,0,0,0,0,0,0,0,4.774193548,20
+356,356, I tend to be quiet,0,0,0,0,0,1,0,0,0,1,3.096774194,19
+357,357, I sometimes behave irresponsibly.,0,0,0,0,0,0,0,0,0,0,1.403225806,34
+358,358, I have difficulty getting started on tasks.,1,0,0,1,0,1,0,0,1,0,1.048387097,44
+359,359, I suffer from others' sorrows.,0,0,0,0,0,0,0,0,1,0,2.467741935,31
+360,360, I misrepresent the facts.,0,0,0,0,0,0,0,1,1,1,0.741935484,26
+361,361, I don't put my mind on the task at hand.,0,0,0,0,0,0,0,0,0,1,0.983870968,41
+362,362, I have a rich vocabulary.,0,0,0,0,0,0,0,0,0,1,4.5625,26
+363,363, I talk to a lot of different people at parties.,0,0,0,0,0,0,0,0,0,1,4.015625,48
+364,364, I keep my cool.,0,0,0,0,0,0,0,0,0,1,4.96875,16
+365,365, I value art and beauty.,0,1,0,0,2,1,1,0,0,2,3.890625,24
+366,366, I trust others.,0,0,0,0,0,0,0,1,0,0,4.5,16
+367,367, I think quickly.,0,0,0,0,0,0,0,0,0,0,4.84375,17
+368,368, I like to do things for others.,0,0,0,0,0,0,0,0,0,0,4.78125,32
+369,369, I respect authority.,0,1,0,0,1,0,0,2,0,2,5.125,21
+370,370, I rarely feel depressed.,1,0,0,1,0,1,0,0,1,0,4.234375,25
+371,371, I laugh my way through life.,0,0,0,0,1,0,1,0,0,1,3.71875,29
+372,372, I think highly of myself.,0,0,0,0,0,0,0,0,0,0,3.75,26
+373,373," I am moody, having up and down mood swings.",1,0,0,0,0,1,0,0,1,0,1.109375,44
+374,374, I stick to my chosen path.,0,0,0,0,0,0,0,0,0,1,3.890625,27
+375,375, I can't be bothered with other's needs.,0,0,0,0,0,0,0,0,0,0,1.265625,40
+376,376, I am afraid that I will do the wrong thing.,0,0,0,1,0,0,0,0,2,0,2.390625,44
+377,377, I keep my emotions under control.,0,0,0,0,0,0,0,0,0,0,4.843137255,34
+378,378, I make people feel welcome.,0,0,0,0,0,0,0,0,0,0,5.117647059,28
+379,379, I am concerned about others.,0,0,0,1,0,1,0,0,0,0,4.980392157,29
+380,380, I am the first to act.,0,0,0,0,0,0,0,0,0,0,4.568627451,23
+381,381, I work hard.,0,0,0,0,0,0,0,0,0,0,5.647058824,13
+382,382, I get irritated easily.,0,0,0,0,0,0,0,0,0,0,0.882352941,24
+383,383, I stumble over my words.,1,0,0,0,0,0,0,0,2,0,1.568627451,25
+384,384, I am passionate about causes.,0,1,0,0,1,0,0,1,0,1,4.607843137,30
+385,385," I leave a mess, don't clean up.",0,0,1,0,1,1,1,1,2,1,0.666666667,32
+386,386, I boast about my virtues.,0,0,0,0,0,0,0,0,1,1,1.607843137,26
+387,387, I try to lead others.,0,0,0,0,0,0,0,0,0,1,4.509803922,22
+388,388, I have a sharp tongue.,0,0,0,0,0,0,0,0,0,0,1.666666667,23
+389,389, I have a low opinion of myself.,0,0,0,0,0,0,0,0,0,0,1.294117647,32
+390,390, I feel desperate.,0,0,0,0,0,0,0,0,1,0,1.019607843,18
+391,391, I do things in a half,0,0,0,0,0,0,0,0,0,0,0.588235294,22
+392,392, I start conversations.,0,1,0,0,0,0,0,0,0,0,4.573770492,23
+393,393, I carry the conversation to a higher level.,0,0,0,0,0,0,0,1,0,1,4.606557377,44
+394,394, I am easy to satisfy.,0,0,0,0,0,0,0,0,0,0,3.819672131,22
+395,395, I see that rules are observed.,0,0,0,0,0,0,0,0,0,0,4.721311475,31
+396,396, I like to take my time.,0,1,0,0,0,0,0,0,0,0,3.491803279,24
+397,397, I have a forgiving nature.,0,0,0,0,0,0,0,1,0,1,4.196721311,27
+398,398," I am complex, a deep thinker.",0,0,0,0,0,0,0,0,0,1,4.426229508,30
+399,399, I get back at others.,0,0,0,0,0,0,0,0,0,0,1.442622951,22
+400,400, I am able to stand up for myself.,0,0,0,0,0,0,0,0,0,0,4.606557377,34
+401,401, I warm up quickly to others.,0,0,0,0,0,0,0,0,0,0,4.557377049,29
+402,402, I remain calm under pressure.,0,0,0,0,0,0,0,0,1,1,5.37704918,30
+403,403, I keep in the background.,0,0,0,0,0,0,0,0,0,0,2.606557377,26
+404,404, I am relaxed most of the time.,0,1,0,0,0,0,0,0,0,0,4.409836066,31
+405,405, I love to daydream.,0,0,0,0,1,0,0,0,0,1,2.06557377,20
+406,406, I believe in an eye for an eye.,0,0,0,0,0,0,0,0,0,0,1.721311475,32
+407,407, I worry a lot.,0,1,0,1,0,1,0,0,1,0,1.717391304,15
+408,408, I like to visit new places.,0,0,0,0,0,0,0,0,0,1,4.043478261,28
+409,409, I involve others in what I am doing.,0,0,0,0,0,0,0,0,0,0,4.130434783,37
+410,410, I am not easily annoyed.,0,0,0,0,0,0,0,0,0,0,4.695652174,25
+411,411, I demand quality.,1,0,0,0,0,0,0,0,1,0,4.869565217,18
+412,412, I experience very few emotional highs and lows.,0,0,0,0,0,0,0,0,0,0,3.956521739,48
+413,413, I believe in the importance of art.,0,2,0,0,1,1,1,0,0,2,3.5,36
+414,414, I often forget to put things back in their proper place.,0,0,0,0,0,0,0,0,1,1,1.760869565,57
+415,415, I have little to say.,0,0,0,0,0,0,0,0,0,0,2.217391304,22
+416,416, I want to be left alone.,0,0,0,0,0,0,0,0,0,0,1.673913043,25
+417,417, I take no time for others.,0,1,0,0,0,0,0,0,0,0,1.217391304,27
+418,418, I rush into things.,0,0,0,0,0,0,0,0,0,0,1.260869565,20
+419,419, I lack the talent for influencing people.,0,0,0,0,0,0,0,0,1,1,1.608695652,42
+420,420, I use flattery to get ahead.,0,0,0,0,0,0,0,0,0,1,1.804347826,29
+421,421, I seldom toot my own horn.,0,0,0,0,0,0,0,0,0,0,3.673913043,27
+422,422, I am on good terms with nearly everyone.,0,1,0,0,1,0,1,1,0,1,4.814814815,41
+423,423," I am inventive, finding clever ways to do things.",0,0,0,0,0,0,0,0,0,2,5.240740741,50
+424,424," I am original, coming up with new ideas.",0,1,0,0,0,0,0,0,0,0,5.240740741,41
+425,425, I get things done quickly.,0,0,0,0,0,0,0,0,0,0,5.111111111,27
+426,426, I find it difficult to approach others.,0,0,0,1,0,0,0,0,0,0,1.444444444,40
+427,427, I am interested in people.,0,0,1,0,0,1,0,0,0,1,4.555555556,27
+428,428, I like to begin new things.,0,0,0,0,0,0,0,0,0,0,4.592592593,28
+429,429, I consider myself an average person.,0,0,0,0,0,0,0,0,0,0,3.037037037,37
+430,430, I avoid difficult reading material.,0,0,0,2,0,0,0,0,1,1,1.592592593,36
+431,431, I don't know why I do some of the things I do.,0,0,0,0,0,0,0,0,0,0,1.574074074,47
+432,432, I love action.,0,0,0,0,1,0,0,0,0,2,3.759259259,15
+433,433, I go straight for the goal.,0,0,0,0,0,0,0,0,0,0,4.518518519,28
+434,434, I am good at many things.,0,1,0,0,1,0,1,1,0,1,5.111111111,26
+435,435, I love to help others.,0,0,0,0,1,0,0,0,0,1,5.185185185,23
+436,436, I try to understand myself.,0,0,0,0,0,0,0,0,0,0,4.574074074,28
